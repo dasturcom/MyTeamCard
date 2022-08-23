@@ -1,0 +1,34 @@
+.card {
+    height: 230px;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.4s linear;
+}
+.card:hover .text {
+    width: 290px;
+    height: 230px;
+    margin-left: -50px;
+    margin-right: 50px;
+    background-color: #fff;
+    transform: translateY(-235px);
+    transition: all 0.4s linear;
+}
+.title {
+    padding: 15px;
+    height: 230px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #79C8C7;
+}
+.text-p {
+    padding: 15px;
+    height: 230px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #79C8C7;
+    transform: translateY(-215px);
+}
